@@ -14,5 +14,5 @@ function createEmployeeRecords(records) {
   return records.forEach(function(record){
     recordsArray.push(createEmployeeRecord(record));
   });
-
+  return recordsArray;
 }
