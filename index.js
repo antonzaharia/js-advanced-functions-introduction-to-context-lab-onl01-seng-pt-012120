@@ -1,4 +1,4 @@
 // Your code here
-cosnt createEmployeeRecord = function() {
+cosnt createEmployeeRecord = function(plm) {
 
 };
