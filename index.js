@@ -10,6 +10,7 @@ function createEmployeeRecord(arr) {
   }
 };
 function createEmployeeRecords(records) {
+  let recordsArray = [];
   return records.forEach(function(record){
     createEmployeeRecord(record);
   })
