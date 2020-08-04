@@ -11,7 +11,7 @@ function createEmployeeRecord(arr) {
 };
 function createEmployeeRecords(records) {
   r = records.map(function(record){
-    return createEmployeeRecord(record);
+    createEmployeeRecord(record);
   })
   return r;
 }
