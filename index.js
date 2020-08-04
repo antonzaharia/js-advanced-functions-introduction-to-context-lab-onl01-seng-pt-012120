@@ -12,6 +12,5 @@ function createEmployeeRecord(arr) {
 function createEmployeeRecords(records) {
   let recordArray = records.map(function(record){
     createEmployeeRecord(record);
-    console.log(record);
   })
 }
