@@ -13,4 +13,5 @@ function createEmployeeRecords(records) {
   r = records.map(function(record){
     return createEmployeeRecord(record);
   })
+  return r;
 }
