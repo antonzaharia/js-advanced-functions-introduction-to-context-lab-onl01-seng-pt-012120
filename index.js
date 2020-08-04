@@ -9,3 +9,8 @@ function createEmployeeRecord(arr) {
     timeOutEvents: []
   }
 };
+function createEmployeeRecords(records) {
+  records.map(function(record){
+    createEmployeeRecord(record);
+  })
+}
