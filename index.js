@@ -14,5 +14,4 @@ function createEmployeeRecords(records) {
     // createEmployeeRecord(record);
     console.log(record);
   })
-  return recordArray;
 }
