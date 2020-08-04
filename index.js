@@ -27,3 +27,13 @@ function createTimeInEvent(record, dateTime) {
   })
   return record;
 }
+function createTimeOutEvent(record, dateTime) {
+  let hour = parseInt(dateTime.split(" ")[1]);
+  let date = dateTime.split(" ")[0];
+  record.timeOutEvents.push({
+    type: "TimeOut",
+    hour: hour,
+    date: date
+  })
+  return record;
+}
