@@ -16,3 +16,9 @@ function createEmployeeRecords(records) {
   });
   return recordsArray;
 }
+
+function createTimeInEvent(record, dateTime) {
+  record.timeInEvents.push({
+    type: "TimeIn"
+  })
+}
