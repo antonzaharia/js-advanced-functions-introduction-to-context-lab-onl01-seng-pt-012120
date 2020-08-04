@@ -11,7 +11,7 @@ function createEmployeeRecord(arr) {
 };
 function createEmployeeRecords(records) {
   let recordsArray = [];
-  return records.forEach(function(record){
+  records.forEach(function(record){
     recordsArray.push(createEmployeeRecord(record));
   });
   return recordsArray;
