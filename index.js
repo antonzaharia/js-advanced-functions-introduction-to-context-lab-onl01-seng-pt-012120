@@ -22,7 +22,7 @@ function createTimeInEvent(record, dateTime) {
   let date = dateTime.split(" ")[0];
   record.timeInEvents.push({
     type: "TimeIn",
-    hour:,
-    date:
+    hour: hour,
+    date: date
   })
 }
