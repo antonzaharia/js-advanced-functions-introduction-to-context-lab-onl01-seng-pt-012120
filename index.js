@@ -25,4 +25,5 @@ function createTimeInEvent(record, dateTime) {
     hour: hour,
     date: date
   })
+  return record
 }
