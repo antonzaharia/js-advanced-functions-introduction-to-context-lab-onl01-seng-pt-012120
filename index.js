@@ -19,6 +19,8 @@ function createEmployeeRecords(records) {
 
 function createTimeInEvent(record, dateTime) {
   record.timeInEvents.push({
-    type: "TimeIn"
+    type: "TimeIn",
+    hour:,
+    date:
   })
 }
